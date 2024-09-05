@@ -2,6 +2,7 @@ source "https://rubygems.org"
 
 gem "rails", "~> 7.2.1"
 gem "pg", "~> 1.1"
+gem "sqlite3", ">= 1.4"
 gem "puma", ">= 5.0"
 # Use Redis adapter to run Action Cable in production
 # gem "redis", ">= 4.0.1"
