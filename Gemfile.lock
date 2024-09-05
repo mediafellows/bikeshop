@@ -286,7 +286,6 @@ DEPENDENCIES
   rubocop-rails-omakase
   shoulda-matchers (~> 6.0)
   sqlite3 (>= 1.4)
-  tzinfo-data
 
 BUNDLED WITH
    2.5.18
