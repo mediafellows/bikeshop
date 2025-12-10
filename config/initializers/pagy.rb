@@ -47,7 +47,7 @@ Pagy.options[:limit] = 50               # Limit the items per page
 #
 # Pagy::Calendar.localize_with_rails_i18n_gem(*your_locales)
 
-Pagy.options[:headers_map] = { page: 'Current-Page',
-                               limit: 'Page-Items',
-                               count: 'Total-Count',
-                               pages: 'Total-Pages' }
+Pagy.options[:headers_map] = { page: "Current-Page",
+                               limit: "Page-Items",
+                               count: "Total-Count",
+                               pages: "Total-Pages" }
