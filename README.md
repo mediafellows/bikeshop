@@ -4,9 +4,9 @@ Bikeshop is a Ruby on Rails application implementing an API for managing a bicyc
 
 ### Prerequisites
 
-- Ruby 3.3
-- Rails 7.2
-- PostgreSQL
+- Ruby 3.2+
+- Rails 8.1
+- PostgreSQL or Sqlite
 
 ### Installation
 
@@ -21,7 +21,9 @@ Bikeshop is a Ruby on Rails application implementing an API for managing a bicyc
    bundle install
    ```
 
-3. Set up and seed the databases:
+3. Choose your database. Postgres is setup by default in `config/database.yml` but there is a config for sqlite there as well
+
+4. Set up and seed the databases:
    ```
    bin/rails db:setup
    ```
